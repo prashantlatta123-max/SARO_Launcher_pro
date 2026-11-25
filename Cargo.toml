@@ -1,0 +1,21 @@
+[workspace]
+resolver = "2"
+members = [
+    "rust/core",
+    "rust/android-bridge",
+]
+default-members = [
+    "rust/core",
+    "rust/android-bridge",
+]
+
+[workspace.package]
+edition = "2021"
+license = "Apache-2.0"
+version = "0.1.2"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = "symbols"

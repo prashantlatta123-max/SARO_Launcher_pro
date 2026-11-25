@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SAROTECH Launcher</string>
+    <string name="launcher_tagline">A little less. A lot more.</string>
+    <string name="app_drawer_title">Applications</string>
+    <string name="search_apps">Search apps</string>
+    <string name="no_apps_found">No launchable apps found</string>
+    <string name="no_matching_apps">No matching apps</string>
+</resources>
